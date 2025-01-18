@@ -14,7 +14,7 @@ with open("./result.array", "r") as file:
         result_array[i][j][k] = float(probability)
 print('data collected!')
 # Testing
-test_image_name = "pexels-igor-starkov-3806244.jpg"
+test_image_name = "pexels-photo-3806244.jpeg"
 test_image = imageio.imread(test_image_name)
 height, width, channel = test_image.shape
 
